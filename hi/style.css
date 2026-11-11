@@ -60,3 +60,11 @@ footer{padding:28px 22px;text-align:center;color:var(--muted);border-top:1px sol
   .contact-section{padding-top:8px}
   .contact-section .wrap{padding-top:20px}
 }
+
+/* Homepage mobile refinement: remove compounded padding between project and birthday sections. */
+@media(max-width:900px){
+  .project-bridge-section{padding-bottom:0}
+  .project-bridge-section .wrap{padding-bottom:12px}
+  .milestone-section{padding-top:0}
+  .milestone-section .wrap{padding-top:12px}
+}
